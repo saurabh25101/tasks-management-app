@@ -1,0 +1,12 @@
+{
+  "name": "task-management-app-master",
+  "version": "1.0.0",
+ "scripts": {
+  "start": "concurrently \"npm start --prefix backend\" \"npm start --prefix frontend/task-manager-app\""
+}
+,
+
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
